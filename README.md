@@ -1,6 +1,5 @@
-# CS472-WAP
-CS472-WAP
+# Web Programming
 
-Author: Minh Phuong Tran - 987132
+Author: Minh Phuong Tran
 
-https://phuongtm1911.github.io/CS472/
+https://github.com/phuongtran1911/WebProgramming
