@@ -1,0 +1,69 @@
+/*
+  Created on: Apr 30, 2019, 2:41:44 PM
+  Author: Minh Phuong Tran
+*/
+
+body {
+  background-color: ghostwhite;
+}
+
+h1 {
+  font-family: Trebuchet MS;
+  color: deeppink;
+}
+
+h3 {
+  font-family: Trebuchet MS;
+  color: deeppink;
+}
+
+p#dropcap:first-letter {
+  font-size: 200%;
+}
+
+p {
+  font-family: Trebuchet MS;
+  font-size: 15px;
+}
+
+li {
+  font-family: Trebuchet MS;
+  font-size: 15px;
+}
+
+dt {
+  font-family: Trebuchet MS;
+  font-size: 14px;
+}
+
+dd {
+  font-family: Trebuchet MS;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: slateblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#moreText1 {
+  display: none;
+}
+
+#moreText2 {
+  display: none;
+}
+
+#moreText3 {
+  display: none;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 100%;
+}

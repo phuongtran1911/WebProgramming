@@ -1,0 +1,40 @@
+/*
+  Created on: May 13, 2019, 10:41:39 AM
+  Author: Minh Phuong Tran
+*/
+
+body {
+  background-color: #CCCCFF;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+textarea {
+  height: 400px;
+  width: 90%;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#controls {
+  text-align: center;
+}
+
+fieldset {
+  border: 5px solid;
+  display: inline;
+}
+
+#validators {
+  position: absolute;
+  right: 0;
+}

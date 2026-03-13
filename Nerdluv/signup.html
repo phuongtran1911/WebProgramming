@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NerdLuv</title>
+  <link href="images/heart.gif" type="image/gif" rel="shortcut icon" />
+  <link href="nerdluv.css" type="text/css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script src="provided.js" type="text/javascript"></script>
+</head>
+<body>
+  <header>
+    <img src="images/nerdluv.png" alt="banner logo" /> <br />
+    where meek geeks meet
+  </header>
+  <form>
+    <fieldset>
+      <legend>New User Signup:</legend>
+      <div class="column">
+        <label class="left" for="name">Name: </label> 
+      </div>                    
+      <div>
+        <input type="text" name="name" maxlength="16">
+      </div>        
+      <div class="column">             
+        <label class="left" for="name">Gender: </label>
+      </div>    
+      <div>               
+        <input type="radio" name="gender" value="female"> Male 
+        <input type="radio" name="gender" value="female" checked> Female
+      </div>        
+      <div class="column">                   
+        <label class="left" for="name">Age: </label>
+      </div>    
+      <div>                    
+        <input type="text" name="age" size="6" maxlength="2">
+      </div>        
+      <div class="column">                        
+        <label class="left" for="name">Personality type: </label>
+      </div>    
+      <div>                    
+        <input type="text" name="personality" size="6" maxlength="4"> (<a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Don't know your type?</a>)
+      </div>
+      <div class="column">                        
+        <label class="left" for="name">Favorite OS: </label>
+      </div>    
+      <div>                    
+        <select name="os">
+          <option value="windows" selected>Windows</option>
+          <option value="mac">MAC OS X</option>
+          <option value="linux">Linux</option>
+        </select>
+      </div>        
+      <div class="column">                        
+        <label class="left" for="name">Seeking age: </label>
+      </div>    
+      <div>                    
+        <input type="text" name="min" size="6" maxlength="2" placeholder="min"> to 
+        <input type="text" name="max" size="6" maxlength="2" placeholder="max">
+      </div>        
+      <div>                        
+        <input type="submit" value="Sign Up"> 
+      </div>    
+    </fieldset>
+  </form>
+
+  <p>
+    This page is for single nerds to meet and date each other!  Type in your personal information and wait for the nerdly luv to begin!  Thank you for using our site.
+  </p>
+  <footer>
+    <hr />
+    <p>
+      Results and page (C) Copyright NerdLuv Inc.
+    </p>
+  </footer>
+</body>
+</html>

@@ -1,12 +1,8 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+  Created on: May 1, 2019, 1:39:23 PM
+  Author: Minh Phuong Tran
 */
-/* 
-    Created on : May 1, 2019, 1:39:23 PM
-    Author     : 987132
-*/
+
 body {
   background-color: white;
   background-image: url('silverware.jpg');
@@ -22,7 +18,8 @@ h1 {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-} 
+}
+
 h2 {
   color: #A4A400;
   background-color: #F0F0F0;
@@ -30,10 +27,12 @@ h2 {
   font-size: 18px;
   font-weight: normal;
   text-align: left;
-} 
+}
+
 a {
   color: #A4A400;
 }
+
 ul {
   list-style-image: url('pie-icon.gif');
 }
@@ -80,4 +79,3 @@ ul {
 div.comment {
   background-color: #FFFFA8;
 }
-
